@@ -6,5 +6,5 @@ Well, I know I can set up two different data sources, so potentially it would wo
 if I could tell Spring to choose a specific sql file.
 
 2. Can I create "schemas" with an H2 source?
-For example, SUMMER.PENGUIN and WINTER.PENGUIN
+For example, NORTH_POLE.PENGUIN and SOUTH_POLE.PENGUIN
 Yes. No problem. Use CREATE SCHEMA <SCHEMA_NAME>
