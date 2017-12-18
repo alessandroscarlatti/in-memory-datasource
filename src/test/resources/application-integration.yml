@@ -1,7 +1,7 @@
+#H2 in-memory DB for testing
 spring:
-  #H2 in-memory DB for testing
   datasource:
-    url: jdbc:h2:mem:db:DB_CLOSE_DELAY=-1 #do we need the DB_CLOSE_DELAY?
+    url: jdbc:h2:mem:db:DB_CLOSE_DELAY=-1 #value -1 means that data persists between connections: crucial for in-memory DB!
     driverClassName: org.h2.Driver
-    username: sa
-    password: sa
+    username: sa  #H2 default
+    password: sa  #H2 default
