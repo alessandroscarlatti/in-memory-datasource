@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    platform: north #specify which data source to use
