@@ -7,14 +7,14 @@ import org.springframework.test.context.ActiveProfiles
 import spock.lang.Specification
 
 @SpringBootTest(classes = [App])
-@ActiveProfiles(["default", "north", "integration"])
-class DAONorthTest extends Specification {
+@ActiveProfiles(["default", "summer", "integration"])
+class DAOSummerTest extends Specification {
 
 	@Autowired
 	DAO dao
 
 	@Test
-	"can load in-memory datasource north"() {
+	"can load in-memory datasource summer"() {
 		when:
 			int result = dao.countPenguins()
 		then:

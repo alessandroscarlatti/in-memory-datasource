@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    platform: winter #specify which data source to use
